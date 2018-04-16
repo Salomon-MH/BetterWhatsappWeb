@@ -1,0 +1,93 @@
+:root{
+    --header-color: #263238;
+    --chatlist-color: #455A64;
+    --chatlist-color-selected: #37474F;
+    --vector-fill-color: #ffffff;
+    --input-bg-color: #90A4AE;
+}
+
+.rAUz7 path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path {
+    fill: var(--vector-fill-color);
+}
+
+
+/*Overall background*/
+body, #startup {
+    background-image: linear-gradient(to bottom, #607D8B, #263238)!important; /*#d2dbdc*/
+} 
+html[dir] ._1FKgS::after, html[dir] ._1WliW {
+    background-color: transparent;
+}
+
+
+#main ._3zJZ2 { /*Chat background*/
+    background-image: url("https://cdn107.picsart.com/208134860002202.jpg?r1024x1024")!important;
+    background-size: cover!important;
+    background-position: center;
+    border: none!important;
+}
+
+/*Chat body*/
+html[dir] ._3AwwN, html[dir] ._1FroB { /*Chat header block*/
+    background-color: var(--header-color);
+}
+._1wjpf, ._3sgkv.Gd51Q, ._1bX-5, html[dir=ltr] ._3F6QL { /*Chat header texts*/
+    color: white;
+}
+html[dir] ._2EXPL, ._2sNbV, html[dir] ._1AKfk { /*Chat list background*/
+    background-color: var(--chatlist-color);
+}
+html[dir] ._2EXPL._1f1zm, html[dir] ._2EXPL:hover { /*Chat list background SELECTED*/
+    background-color: var(--chatlist-color-selected);
+}
+html[dir] ._3auIg, html[dir] .gQzdc {  /*Chat header block left profile*/
+    background-color: var(--header-color);
+}
+html[dir] ._3oju3 { /*Chat text block surroundings*/
+    background-color: var(--header-color);
+}
+._2-nZz { /*Chat emoji bar*/
+    background-color: var(--chatlist-color-selected);
+}
+._3T2VG { /*Chat list time*/
+    color: #cccccc;
+}
+._3F6QL._2WovP div, html[dir] ._2bXVy { /*Chat field*/
+    color: #000000;
+    background-color: var(--input-bg-color);
+    border-color: var(--input-bg-color);
+}
+
+/*Disable Scrollbar*/
+*::-webkit-scrollbar {
+    width: 0px !important;
+}
+
+
+html[dir] ._3qlW9, ._3ySAH, html[dir] ._3nuGo { /*Message on startup etc*/
+    background-color: var(--chatlist-color);
+}
+.iHhHL {
+    color: #009688;
+}
+
+/*Image on startup*/
+._2Uo0Z {
+    visibility: hidden;
+}
+/*Advert on startup*/
+html[dir] ._1Y6o1 {
+    visibility: hidden;
+}
+
+
+
+/* Offline messages*/
+html[dir] ._3gUiM._6vIwv {
+    background-color: transparent;
+}
+
+html[dir] ._1CnF3 {
+    background-color: var(--chatlist-color);
+    color: white;
+}
