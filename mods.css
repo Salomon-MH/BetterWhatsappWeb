@@ -6,7 +6,7 @@
     --input-bg-color: #90A4AE;
 }
 
-.rAUz7 path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path {
+.rAUz7 path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path, ._1aTxu path {
     fill: var(--vector-fill-color);
 }
 
@@ -28,13 +28,13 @@ html[dir] ._1FKgS::after, html[dir] ._1WliW {
 }
 
 /*Chat body*/
-html[dir] ._3AwwN, html[dir] ._1FroB { /*Chat header block*/
+html[dir] ._3AwwN, html[dir] ._1FroB, html[dir=ltr] ._1CSx9 { /*Chat header block*/
     background-color: var(--header-color);
 }
-._1wjpf, ._3sgkv.Gd51Q, ._1bX-5, html[dir=ltr] ._3F6QL { /*Chat header texts*/
+._1wjpf, ._3sgkv.Gd51Q, ._1bX-5, html[dir=ltr] ._3F6QL, ._3LL06, ._1xGbt, .iYPsH, ._3sgkv, ._B0pu.Y9G3K { /*Chat header texts*/
     color: white;
 }
-html[dir] ._2EXPL, ._2sNbV, html[dir] ._1AKfk { /*Chat list background*/
+html[dir] ._2EXPL, ._2sNbV, html[dir] ._1AKfk, html[dir=ltr] ._34vig, html[dir] ._1CkkN { /*Chat list background*/
     background-color: var(--chatlist-color);
 }
 html[dir] ._2EXPL._1f1zm, html[dir] ._2EXPL:hover { /*Chat list background SELECTED*/
@@ -43,7 +43,7 @@ html[dir] ._2EXPL._1f1zm, html[dir] ._2EXPL:hover { /*Chat list background SELEC
 html[dir] ._3auIg, html[dir] .gQzdc {  /*Chat header block left profile*/
     background-color: var(--header-color);
 }
-html[dir] ._3oju3 { /*Chat text block surroundings*/
+html[dir] ._3oju3, html[dir] ._2EYZY { /*Chat text block surroundings*/
     background-color: var(--header-color);
 }
 ._2-nZz { /*Chat emoji bar*/
