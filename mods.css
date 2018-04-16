@@ -20,7 +20,7 @@ html[dir] ._1FKgS::after, html[dir] ._1WliW {
 }
 
 
-#main ._3zJZ2 { /*Chat background*/
+#main ._3zJZ2, html[dir] ._3FAwT, ._1N6G4 { /*Chat background*/
     background-image: url("https://cdn107.picsart.com/208134860002202.jpg?r1024x1024")!important;
     background-size: cover!important;
     background-position: center;
@@ -34,10 +34,10 @@ html[dir] ._3AwwN, html[dir] ._1FroB, html[dir=ltr] ._1CSx9 { /*Chat header bloc
 ._1wjpf, ._3sgkv.Gd51Q, ._1bX-5, html[dir=ltr] ._3F6QL, ._3LL06, ._1xGbt, .iYPsH, ._3sgkv, ._B0pu.Y9G3K { /*Chat header texts*/
     color: white;
 }
-html[dir] ._2EXPL, ._2sNbV, html[dir] ._1AKfk, html[dir=ltr] ._34vig, html[dir] ._1CkkN { /*Chat list background*/
+html[dir] ._2EXPL, ._2sNbV, html[dir] ._1AKfk, html[dir=ltr] ._34vig, html[dir] ._1CkkN, html[dir] ._2flas, html[dir] .Um7sh, html[dir] ._1NrpZ { /*Chat list background*/
     background-color: var(--chatlist-color);
 }
-html[dir] ._2EXPL._1f1zm, html[dir] ._2EXPL:hover { /*Chat list background SELECTED*/
+html[dir] ._2EXPL._1f1zm, html[dir] ._2EXPL:hover, html[dir] ._1CkkN:hover { /*Chat list background SELECTED*/
     background-color: var(--chatlist-color-selected);
 }
 html[dir] ._3auIg, html[dir] .gQzdc {  /*Chat header block left profile*/
