@@ -6,7 +6,7 @@
     --input-bg-color: #90A4AE;
 }
 
-.rAUz7 path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path, ._1aTxu path {
+.rAUz7 path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path, ._1aTxu path, ._16yFM path {
     fill: var(--vector-fill-color);
 }
 
@@ -28,10 +28,10 @@ html[dir] ._1FKgS::after, html[dir] ._1WliW {
 }
 
 /*Chat body*/
-html[dir] ._3AwwN, html[dir] ._1FroB, html[dir=ltr] ._1CSx9 { /*Chat header block*/
+html[dir] ._3AwwN, html[dir] ._1FroB, html[dir=ltr] ._1CSx9, html[dir] ._1XwnX, html[dir] ._3_R6X, html[dir=ltr] ._1zcz2, html[dir] ._2YdsD, html[dir] ._3dqpi { /*Chat header block*/
     background-color: var(--header-color);
 }
-._1wjpf, ._3sgkv.Gd51Q, ._1bX-5, html[dir=ltr] ._3F6QL, ._3LL06, ._1xGbt, .iYPsH, ._3sgkv, ._B0pu.Y9G3K { /*Chat header texts*/
+._1wjpf, ._3sgkv.Gd51Q, ._1bX-5, html[dir=ltr] ._3F6QL, ._3LL06, ._1xGbt, .iYPsH, ._3sgkv, ._B0pu.Y9G3K, html[dir] ._12oAB, html[dir=ltr] ._25Ooe { /*Chat header texts*/
     color: white;
 }
 html[dir] ._2EXPL, ._2sNbV, html[dir] ._1AKfk, html[dir=ltr] ._34vig, html[dir] ._1CkkN, html[dir] ._2flas, html[dir] .Um7sh, html[dir] ._1NrpZ { /*Chat list background*/
@@ -80,6 +80,10 @@ html[dir] ._1Y6o1 {
     visibility: hidden;
 }
 
+/*Remove buggy thing*/
+.app {
+    background-image: none!important;
+}
 
 
 /* Offline messages*/
