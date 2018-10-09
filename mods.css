@@ -4,16 +4,18 @@
     --chatlist-color-selected: #37474F;
     --vector-fill-color: #ffffff;
     --input-bg-color: #90A4AE;
+    --small-headers-greenblue: #1be4cd;
 }
 
-.rAUz7 path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path, ._1aTxu path, ._16yFM path {
-    fill: var(--vector-fill-color);
+.rAUz7 path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path, ._1aTxu path, ._16yFM path, ._1x_c3._338za svg path {
+    fill: var(--vector-fill-color)!important;
 }
 
 
 /*Overall background*/
 body, #startup {
     background-image: linear-gradient(to bottom, #607D8B, #263238)!important; /*#d2dbdc*/
+    color: white!important;
 } 
 html[dir] ._1FKgS::after, html[dir] ._1WliW {
     background-color: transparent;
@@ -46,13 +48,16 @@ html[dir] ._3auIg, html[dir] .gQzdc {  /*Chat header block left profile*/
 html[dir] ._3oju3, html[dir] ._2EYZY { /*Chat text block surroundings*/
     background-color: var(--header-color);
 }
+html[dir] ._3pkkz { /*NEW Chat text block surroundings*/
+    background-color: var(--header-color);
+}
 ._2-nZz { /*Chat emoji bar*/
     background-color: var(--chatlist-color-selected);
 }
 ._3T2VG { /*Chat list time*/
     color: #cccccc;
 }
-._3F6QL._2WovP div, html[dir] ._2bXVy { /*Chat field*/
+._3F6QL._2WovP div, html[dir] ._2bXVy, html[dir] ._1Plpp { /*Chat field*/
     color: #000000;
     background-color: var(--input-bg-color);
     border-color: var(--input-bg-color);
@@ -61,6 +66,11 @@ html[dir] ._3oju3, html[dir] ._2EYZY { /*Chat text block surroundings*/
 /*Disable Scrollbar*/
 *::-webkit-scrollbar {
     width: 0px !important;
+}
+
+/*Chat Info green headlines text brightener*/
+._1sYdX {
+    color: var(--small-headers-greenblue)!important;
 }
 
 
@@ -85,13 +95,18 @@ html[dir] ._1Y6o1 {
     background-image: none!important;
 }
 
+/*Message Info read time*/
+._1AwDx {
+    color: rgba(255, 255, 255, 0.6)!important;
+}
+
 
 /* Offline messages*/
 html[dir] ._3gUiM._6vIwv {
     background-color: transparent;
 }
 
-html[dir] ._1CnF3 {
+html[dir] ._1CnF3, ._2Qffr {
     background-color: var(--chatlist-color);
     color: white;
 }
