@@ -7,7 +7,7 @@
     --small-headers-greenblue: #1be4cd;
 }
 
-.rAUz7 path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path, ._1aTxu path, ._16yFM path, ._1x_c3._338za svg path {
+.rAUz7 > div path, ._15G96 path, ._2uQuX path, ._1UWg0 path, ._2-nZz path, html[dir=ltr] .I9L8x path, ._2lkdt path, ._1aTxu path, ._16yFM path, ._1x_c3._338za svg path, html[dir] ._35EW6 span svg path, html[dir] ._3SX5f div span svg path, .GclUX path {
     fill: var(--vector-fill-color)!important;
 }
 
@@ -51,7 +51,16 @@ html[dir] ._3oju3, html[dir] ._2EYZY { /*Chat text block surroundings*/
 html[dir] ._3pkkz { /*NEW Chat text block surroundings*/
     background-color: var(--header-color);
 }
-._2-nZz { /*Chat emoji bar*/
+html[dir] .rstyJ, html[dir] ._3SX5f { /*Quotation / Cite*/
+    background-color: var(--header-color);
+}
+
+html[dir] .rAUz7._3TbsN > span div { /*Titlebar More Selection Bar (New Group, Group Info, ...)*/
+    background-color: var(--header-color);
+    color: #cccccc;
+}
+
+._2-nZz, html[dir] ._1qUma { /*Chat emoji bar*/
     background-color: var(--chatlist-color-selected);
 }
 ._3T2VG { /*Chat list time*/
