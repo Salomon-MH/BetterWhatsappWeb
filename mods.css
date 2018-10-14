@@ -54,6 +54,9 @@ html[dir] ._3pkkz { /*NEW Chat text block surroundings*/
 html[dir] .rstyJ, html[dir] ._3SX5f { /*Quotation / Cite*/
     background-color: var(--header-color);
 }
+/*html[dir] ._1Wp9N ._3zVOv, ._3QqKs*/ html[dir=ltr] ._1Wp9N ._3BCzw div { /*Link preview*/
+    color: white!important;
+}
 
 html[dir] .rAUz7._3TbsN > span div { /*Titlebar More Selection Bar (New Group, Group Info, ...)*/
     background-color: var(--header-color);
