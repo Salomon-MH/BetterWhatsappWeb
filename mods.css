@@ -85,6 +85,16 @@ html[dir] .rAUz7._3TbsN > span div { /*Titlebar More Selection Bar (New Group, G
     color: var(--small-headers-greenblue)!important;
 }
 
+._3fcxo { /* @Person selector*/
+    background-color: var(--chatlist-color);
+}
+html[dir] ._3v_lq.j5Hcb { /* @Person selector selection */
+    background-color: var(--chatlist-color-selected);
+}
+html[dir=ltr] ._3F6QL._2WovP ._2S1VP >span { /* @Person in textfield */
+    color: #0049ff!important;
+}
+
 
 html[dir] ._3qlW9, ._3ySAH, html[dir] ._3nuGo { /*Message on startup etc*/
     background-color: var(--chatlist-color);
