@@ -23,14 +23,14 @@ html[dir] ._1FKgS::after, html[dir] ._1WliW {
 
 
 #main ._3zJZ2, html[dir] ._3FAwT, ._1N6G4 { /*Chat background*/
-    background-image: url("https://cdn107.picsart.com/208134860002202.jpg?r1024x1024")!important;
+    background-image: url("https://cdn107.picsart.com/208134860002202.jpg")!important; /*?r1024x1024*/
     background-size: cover!important;
     background-position: center;
     border: none!important;
 }
 
 /*Chat body*/
-html[dir] ._3AwwN, html[dir] ._1FroB, html[dir=ltr] ._1CSx9, html[dir] ._1XwnX, html[dir] ._3_R6X, html[dir=ltr] ._1zcz2, html[dir] ._2YdsD, html[dir] ._3dqpi { /*Chat header block*/
+html[dir] ._3AwwN, html[dir] ._1FroB, html[dir=ltr] ._1CSx9, html[dir] ._1XwnX, html[dir] ._3_R6X, html[dir=ltr] ._1zcz2, html[dir] ._2YdsD, html[dir] ._3dqpi, html[dir] ._2y17h { /*Chat header block*/
     background-color: var(--header-color);
 }
 ._1wjpf, ._3sgkv.Gd51Q, ._1bX-5, html[dir=ltr] ._3F6QL, ._3LL06, ._1xGbt, .iYPsH, ._3sgkv, ._B0pu.Y9G3K, html[dir] ._12oAB, html[dir=ltr] ._25Ooe { /*Chat header texts*/
@@ -93,6 +93,10 @@ html[dir] ._3v_lq.j5Hcb { /* @Person selector selection */
 }
 html[dir=ltr] ._3F6QL._2WovP ._2S1VP >span { /* @Person in textfield */
     color: #0049ff!important;
+}
+
+html[dir=ltr] ._3b3uN { /* Disable Tenor icon */
+    display: none;
 }
 
 
